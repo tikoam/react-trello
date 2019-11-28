@@ -33,7 +33,7 @@ class Lane extends Component {
       onLaneScroll(nextPage, this.props.id).then(moreCards => {
         if (!moreCards || moreCards.length === 0) {
           // if no cards present, stop retrying until user action
-          node.scrollTop = node.scrollTop - 100
+          // node.scrollTop = node.scrollTop - 100
         } else {
           this.props.actions.paginateLane({
             laneId: this.props.id,
