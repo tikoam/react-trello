@@ -1,5 +1,6 @@
 {
-  "name": "react-trello",
+  "name": "@tikoam/react-trello",
+  "version" : "0.0.1",
   "description": "Pluggable components to add a trello like kanban board to your application",
   "main": "dist/index.js",
   "jsnext:main": "src/components/index.js",
@@ -10,7 +11,7 @@
     "README"
   ],
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublish": "yarn build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "storybook": "start-storybook -p 9002",
     "test": "jest",
@@ -26,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rcdexta/react-trello"
+    "url": "https://github.com/tikoam/react-trello"
   },
   "keywords": [
     "react",
